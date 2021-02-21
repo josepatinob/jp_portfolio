@@ -4,14 +4,68 @@ import Contact from './Contact'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <About />
       <Contact />
       <p>resume pdf download</p>
       <ul>
         <li>skills</li>
       </ul>
-    </div>
+      <About />
+      <Contact />
+      <p>resume pdf download</p>
+      <ul>
+        <li>skills</li>
+      </ul>
+      <About />
+      <Contact />
+      <p>resume pdf download</p>
+      <ul>
+        <li>skills</li>
+      </ul>
+      <About />
+      <Contact />
+      <p>resume pdf download</p>
+      <ul>
+        <li>skills</li>
+      </ul>
+      <About />
+      <Contact />
+      <p>resume pdf download</p>
+      <ul>
+        <li>skills</li>
+      </ul>
+      <About />
+      <Contact />
+      <p>resume pdf download</p>
+      <ul>
+        <li>skills</li>
+      </ul>
+      <About />
+      <Contact />
+      <p>resume pdf download</p>
+      <ul>
+        <li>skills</li>
+      </ul>
+      <About />
+      <Contact />
+      <p>resume pdf download</p>
+      <ul>
+        <li>skills</li>
+      </ul>
+      <About />
+      <Contact />
+      <p>resume pdf download</p>
+      <ul>
+        <li>skills</li>
+      </ul>
+      <About />
+      <Contact />
+      <p>resume pdf download</p>
+      <ul>
+        <li>skills</li>
+      </ul>
+    </>
   )
 }
 

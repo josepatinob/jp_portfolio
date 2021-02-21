@@ -8,11 +8,12 @@ const NavbarStyle = styled.div`
   justify-content: space-between;
   height: 4rem;
   box-shadow: 0rem 0.05rem;
+  background-color: #494e55;
 
   .brand {
     font-size: 2rem;
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 0.5rem;
     justify-content: flex-start;
   }
@@ -28,7 +29,7 @@ const NavbarStyle = styled.div`
     display: inline;
   }
   li a {
-    color: black;
+    color: white;
     font-size: 1.5rem;
     padding: 1rem 0.5rem;
     display: block;

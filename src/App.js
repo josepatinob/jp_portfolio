@@ -13,6 +13,7 @@ const StyledContent = styled.div`
   height: 100%;
   max-width: 68.75rem;
   margin: auto;
+  padding-bottom: 12rem;
 `
 
 const App = () => {

@@ -2,11 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 
 const FooterStyle = styled.div`
-  height: 10rem;
-  background-color: #3d3d3d;
+  height: 12rem;
   width: 100%;
   bottom: 0;
   position: absolute;
+  margin-top: auto;
 `
 
 const Footer = () => {
