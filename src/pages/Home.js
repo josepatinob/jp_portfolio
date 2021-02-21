@@ -11,60 +11,6 @@ const Home = () => {
       <ul>
         <li>skills</li>
       </ul>
-      <About />
-      <Contact />
-      <p>resume pdf download</p>
-      <ul>
-        <li>skills</li>
-      </ul>
-      <About />
-      <Contact />
-      <p>resume pdf download</p>
-      <ul>
-        <li>skills</li>
-      </ul>
-      <About />
-      <Contact />
-      <p>resume pdf download</p>
-      <ul>
-        <li>skills</li>
-      </ul>
-      <About />
-      <Contact />
-      <p>resume pdf download</p>
-      <ul>
-        <li>skills</li>
-      </ul>
-      <About />
-      <Contact />
-      <p>resume pdf download</p>
-      <ul>
-        <li>skills</li>
-      </ul>
-      <About />
-      <Contact />
-      <p>resume pdf download</p>
-      <ul>
-        <li>skills</li>
-      </ul>
-      <About />
-      <Contact />
-      <p>resume pdf download</p>
-      <ul>
-        <li>skills</li>
-      </ul>
-      <About />
-      <Contact />
-      <p>resume pdf download</p>
-      <ul>
-        <li>skills</li>
-      </ul>
-      <About />
-      <Contact />
-      <p>resume pdf download</p>
-      <ul>
-        <li>skills</li>
-      </ul>
     </>
   )
 }

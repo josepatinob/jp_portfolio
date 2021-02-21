@@ -3,7 +3,7 @@ import React from 'react'
 const Guides = () => {
   return (
     <div>
-      <p>guides</p>
+      <p>Coming soon...</p>
     </div>
   )}
 
