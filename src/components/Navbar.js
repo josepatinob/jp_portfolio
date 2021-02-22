@@ -8,7 +8,7 @@ const NavbarStyle = styled.div`
   justify-content: space-between;
   height: 4rem;
   box-shadow: 0rem 0.05rem;
-  background-color: #494e55;
+  background-color: #2b67af;
 
   .brand {
     font-size: 2rem;
@@ -16,6 +16,12 @@ const NavbarStyle = styled.div`
     color: white;
     margin: 0.5rem;
     justify-content: flex-start;
+    vertical-align: middle;
+
+    @media (max-width: 31.25rem) {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+    }
   }
   ul {
     justify-content: flex-end;
@@ -30,7 +36,7 @@ const NavbarStyle = styled.div`
   }
   li a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1rem 0.5rem;
     display: block;
     text-align: center;

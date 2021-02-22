@@ -14,6 +14,10 @@ const StyledContent = styled.div`
   max-width: 68.75rem;
   margin: auto;
   padding-bottom: 12rem;
+
+  @media (max-width: 71.25rem) {
+    margin: 0 1rem;
+  }
 `
 
 const App = () => {
