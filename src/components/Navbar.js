@@ -51,7 +51,7 @@ const NavbarStyle = styled.div`
 const Navbar = () => {
   return (
     <NavbarStyle>
-      <Link to="/" className="brand">
+      <Link to="/home" className="brand">
         Jose Patino
       </Link>
       <ul>
