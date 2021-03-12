@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/jp_portfolio/static/css/main.b4cbcc9e.chunk.css",
-    "main.js": "/jp_portfolio/static/js/main.2cf04719.chunk.js",
-    "main.js.map": "/jp_portfolio/static/js/main.2cf04719.chunk.js.map",
-    "runtime-main.js": "/jp_portfolio/static/js/runtime-main.7699e835.js",
-    "runtime-main.js.map": "/jp_portfolio/static/js/runtime-main.7699e835.js.map",
-    "static/js/2.02fb1c1c.chunk.js": "/jp_portfolio/static/js/2.02fb1c1c.chunk.js",
-    "static/js/2.02fb1c1c.chunk.js.map": "/jp_portfolio/static/js/2.02fb1c1c.chunk.js.map",
-    "index.html": "/jp_portfolio/index.html",
-    "static/css/main.b4cbcc9e.chunk.css.map": "/jp_portfolio/static/css/main.b4cbcc9e.chunk.css.map",
-    "static/js/2.02fb1c1c.chunk.js.LICENSE.txt": "/jp_portfolio/static/js/2.02fb1c1c.chunk.js.LICENSE.txt",
-    "static/media/github.a855c397.png": "/jp_portfolio/static/media/github.a855c397.png",
-    "static/media/hiking.c8fa9421.jpg": "/jp_portfolio/static/media/hiking.c8fa9421.jpg",
-    "static/media/instagram.e719d8b2.png": "/jp_portfolio/static/media/instagram.e719d8b2.png",
-    "static/media/twitter.89498832.png": "/jp_portfolio/static/media/twitter.89498832.png"
+    "main.css": "/jp_portfolio/home/static/css/main.b4cbcc9e.chunk.css",
+    "main.js": "/jp_portfolio/home/static/js/main.3e4734d8.chunk.js",
+    "main.js.map": "/jp_portfolio/home/static/js/main.3e4734d8.chunk.js.map",
+    "runtime-main.js": "/jp_portfolio/home/static/js/runtime-main.565a306a.js",
+    "runtime-main.js.map": "/jp_portfolio/home/static/js/runtime-main.565a306a.js.map",
+    "static/js/2.3d4d05a6.chunk.js": "/jp_portfolio/home/static/js/2.3d4d05a6.chunk.js",
+    "static/js/2.3d4d05a6.chunk.js.map": "/jp_portfolio/home/static/js/2.3d4d05a6.chunk.js.map",
+    "index.html": "/jp_portfolio/home/index.html",
+    "static/css/main.b4cbcc9e.chunk.css.map": "/jp_portfolio/home/static/css/main.b4cbcc9e.chunk.css.map",
+    "static/js/2.3d4d05a6.chunk.js.LICENSE.txt": "/jp_portfolio/home/static/js/2.3d4d05a6.chunk.js.LICENSE.txt",
+    "static/media/github.a855c397.png": "/jp_portfolio/home/static/media/github.a855c397.png",
+    "static/media/hiking.c8fa9421.jpg": "/jp_portfolio/home/static/media/hiking.c8fa9421.jpg",
+    "static/media/instagram.e719d8b2.png": "/jp_portfolio/home/static/media/instagram.e719d8b2.png",
+    "static/media/twitter.89498832.png": "/jp_portfolio/home/static/media/twitter.89498832.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7699e835.js",
-    "static/js/2.02fb1c1c.chunk.js",
+    "static/js/runtime-main.565a306a.js",
+    "static/js/2.3d4d05a6.chunk.js",
     "static/css/main.b4cbcc9e.chunk.css",
-    "static/js/main.2cf04719.chunk.js"
+    "static/js/main.3e4734d8.chunk.js"
   ]
 }
