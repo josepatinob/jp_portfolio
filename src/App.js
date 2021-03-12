@@ -26,7 +26,7 @@ const App = () => {
       <Navbar />
       <StyledContent>
         <Switch>
-          <Route path="/home" exact component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path="/portfolio" exact component={Portfolio} />
           <Route path="/blog" exact component={Blog} />
           <Route path="/guides" exact component={Guides} />
