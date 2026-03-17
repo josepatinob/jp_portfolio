@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Instagram from '../images/instagram.png'
-import Twitter from '../images/twitter.png'
 import LinkedIn from '../images/linkedin.png'
 import GitHub from '../images/github.png'
 
@@ -11,6 +9,8 @@ const FooterStyle = styled.div`
   bottom: 0;
   position: absolute;
   margin-top: auto;
+  background-color: #0f1117;
+  border-top: 1px solid #1c1f2e;
 `
 
 const FooterContainer = styled.div`
@@ -19,37 +19,34 @@ const FooterContainer = styled.div`
   justify-content: center;
 `
 
-const StyledButton = styled.button`
-  margin: 2rem;
-  border: none;
-  background-color: white;
-  outline: none;
+const StyledLink = styled.a`
+  margin: 1rem;
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.7;
+  transition: opacity 0.2s, transform 0.2s;
+
   :hover {
-    cursor: pointer;
-    transform: scale(1.5);
+    opacity: 1;
+    transform: scale(1.2);
   }
 `
 
 const StyledImage = styled.img`
-  max-width: 2rem;
+  max-width: 1.75rem;
+  filter: invert(1) brightness(2);
 `
 
 const Footer = () => {
   return (
     <FooterStyle>
       <FooterContainer>
-      <StyledButton as="a" href="https://github.com/jpatino37" target="_blank">
+        <StyledLink href="https://github.com/josepatinob" target="_blank" rel="noreferrer">
           <StyledImage src={GitHub} alt="github" />
-        </StyledButton>
-        <StyledButton as="a" href="https://www.instagram.com/jpatino_37/" target="_blank">
-          <StyledImage src={Instagram} alt="instagram" />
-        </StyledButton>
-        <StyledButton as="a" href="https://www.linkedin.com/in/%F0%9F%98%81-%F0%9F%92%BB-jose-patino-bolanos-4a943bb8/" target="_blank">
+        </StyledLink>
+        <StyledLink href="https://www.linkedin.com/in/josepatinob/" target="_blank" rel="noreferrer">
           <StyledImage src={LinkedIn} alt="linkedin" />
-        </StyledButton>
-        <StyledButton as="a" href="https://twitter.com/jpatino3792" target="_blank">
-          <StyledImage src={Twitter} alt="twitter" />
-        </StyledButton>
+        </StyledLink>
       </FooterContainer>
     </FooterStyle>
   )

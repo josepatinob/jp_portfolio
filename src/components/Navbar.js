@@ -1,50 +1,27 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const NavbarStyle = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   height: 4rem;
-  box-shadow: 0rem 0.05rem;
-  background-color: #2b67af;
+  background-color: #0f1117;
+  border-bottom: 1px solid #1c1f2e;
+  padding: 0 2rem;
 
   .brand {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
     text-decoration: none;
-    color: white;
-    margin: 0.5rem;
-    justify-content: flex-start;
-    vertical-align: middle;
+    color: #ccef9c;
+    letter-spacing: 0.05em;
 
     @media (max-width: 31.25rem) {
-      font-size: 1.5rem;
-      padding: 0.5rem;
+      font-size: 1.2rem;
     }
-  }
-  ul {
-    justify-content: flex-end;
-    list-style-type: none;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    float: right;
-    display: inline;
-  }
-  li a {
-    color: white;
-    font-size: 1.2rem;
-    padding: 1rem 0.5rem;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-  }
-  .selected {
-    font-weight: bold;
-    text-decoration: underline;
   }
 `
 
@@ -54,23 +31,6 @@ const Navbar = () => {
       <Link to="/" className="brand">
         Jose Patino
       </Link>
-      <ul>
-        <li>
-          <NavLink to="/portfolio" activeClassName="selected">
-            Portfolio
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/blog" activeClassName="selected">
-            Blog
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/guides" activeClassName="selected">
-            Guides
-          </NavLink>
-        </li>
-      </ul>
     </NavbarStyle>
   )
 }
